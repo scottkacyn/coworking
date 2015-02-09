@@ -1,4 +1,5 @@
 ActiveAdmin.register Company do
+  permit_params :title, :website
 
 
   # See permitted parameters documentation:
