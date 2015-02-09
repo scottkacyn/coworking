@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
         :recoverable, :rememberable, :trackable, :validatable
   has_one :private_desk
   has_one :shared_desk
+  belongs_to :company
 end
